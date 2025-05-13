@@ -1,0 +1,162 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="codes">
+			<method name="CheckCode"/>
+		</type>
+		<type fullname="LeaderboardManager">
+			<method name="BackToGambling"/>
+			<method name="GoToLeaderboard"/>
+		</type>
+		<type fullname="levels">
+			<method name="Rebirth"/>
+		</type>
+		<type fullname="Menu">
+			<method name="toggle"/>
+			<method name="toggle"/>
+		</type>
+		<type fullname="Names">
+			<method name="CheckInput"/>
+		</type>
+		<type fullname="noBankruptcy">
+			<method name="continueGambling"/>
+			<method name="ImagePop"/>
+			<method name="userLoser"/>
+		</type>
+		<type fullname="Settings">
+			<method name="BackToGambling"/>
+			<method name="ChangeName"/>
+			<method name="ConfirmReset"/>
+			<method name="GetNextInput"/>
+			<method name="GoToSettings"/>
+			<method name="ResetCancelled"/>
+			<method name="ResetConfirmed"/>
+			<method name="ResetToDefault"/>
+			<method name="UpdateBallDelay"/>
+			<method name="UpdateBallTrails"/>
+		</type>
+		<type fullname="spawnBallYes">
+			<method name="AllIn"/>
+			<method name="halfIn"/>
+			<method name="quarterIn"/>
+		</type>
+		<type fullname="StartScreen">
+			<method name="BackToStart"/>
+			<method name="CreditScreen"/>
+			<method name="Play"/>
+			<method name="Settings"/>
+		</type>
+		<type fullname="Store">
+			<method name="BackToGambling"/>
+			<method name="BannerSpin"/>
+			<method name="BuyRerollShards"/>
+			<method name="CloseReveal"/>
+			<method name="GoToBalls"/>
+			<method name="GoToStore"/>
+			<method name="GoToThemes"/>
+			<method name="RevealBall"/>
+			<method name="RollRepeat"/>
+			<method name="toggleProbabilities"/>
+			<method name="toggleProbabilities"/>
+		</type>
+		<type fullname="StoreItem">
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Buy"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+			<method name="Equip"/>
+		</type>
+		<type fullname="tos">
+			<method name="Agree"/>
+			<method name="DontCare"/>
+		</type>
+		<type fullname="Traits">
+			<method name="BackToStore"/>
+			<method name="GoToTraits"/>
+			<method name="NextPage"/>
+			<method name="OpenChances"/>
+			<method name="PreviousPage"/>
+			<method name="Reroll"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+			<method name="SelectBall"/>
+		</type>
+	</assembly>
+	<assembly fullname="Unity.RenderPipelines.Core.Runtime" ignoreIfMissing="1">
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerButton">
+			<method name="OnAction"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerObjectPopupField">
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerPanel">
+			<method name="OnScrollbarClicked"/>
+			<method name="OnScrollbarClicked"/>
+			<method name="ResetDebugManager"/>
+		</type>
+		<type fullname="UnityEngine.Rendering.UI.DebugUIHandlerUIntField">
+			<method name="OnDecrement"/>
+			<method name="OnDecrement"/>
+			<method name="OnIncrement"/>
+			<method name="OnIncrement"/>
+		</type>
+	</assembly>
+	<assembly fullname="UnityEngine.AudioModule" ignoreIfMissing="1">
+		<type fullname="UnityEngine.AudioListener">
+			<method name="set_volume"/>
+		</type>
+		<type fullname="UnityEngine.AudioSource">
+			<method name="set_volume"/>
+		</type>
+	</assembly>
+</linker>
